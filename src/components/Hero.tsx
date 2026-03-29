@@ -1,6 +1,7 @@
 import { motion, type Variants } from 'framer-motion';
 import { ArrowRight, GitBranch, Briefcase, Mail } from 'lucide-react';
 import { portfolioData } from '../data/portfolio';
+import profileImg from '../images/20241225_143606.jpg';
 
 export const Hero = () => {
   const containerVariants: Variants = {
@@ -75,7 +76,7 @@ export const Hero = () => {
                 <span>View My Work</span>
                 <ArrowRight size={20} />
               </motion.button>
-              
+
               <motion.a
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
@@ -135,7 +136,7 @@ export const Hero = () => {
               <div className="absolute inset-0 bg-gradient-to-br from-blue-400 to-purple-600 rounded-lg opacity-10 blur-3xl"></div>
               <div className="relative w-full h-full flex items-center justify-center">
                 <img
-                  src="src/images/20241225_143606.jpg"
+                  src={profileImg}
                   alt="Profile"
                   className="w-64 h-64 rounded-lg shadow-2xl object-cover"
                 />
