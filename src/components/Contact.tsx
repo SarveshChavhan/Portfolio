@@ -104,7 +104,6 @@ export const Contact = () => {
                       key={index}
                       whileHover={{ x: 10 }}
                       href={contact.href}
-                      disabled={contact.icon === MapPin}
                       className="flex items-start space-x-4 p-4 bg-white dark:bg-gray-700 rounded-lg shadow-md hover:shadow-lg transition-all duration-300 cursor-pointer group"
                     >
                       <div className="p-3 bg-blue-100 dark:bg-blue-900/30 rounded-lg group-hover:bg-blue-200 dark:group-hover:bg-blue-900/50 transition-colors">

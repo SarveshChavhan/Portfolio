@@ -44,7 +44,7 @@ export const Education = () => {
 
           {/* Education List */}
           <div className="grid md:grid-cols-2 gap-6">
-            {portfolioData.education.map((edu, index) => (
+            {portfolioData.education.map((edu) => (
               <motion.div
                 key={edu.id}
                 variants={itemVariants}

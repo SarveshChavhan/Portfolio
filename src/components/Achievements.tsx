@@ -55,7 +55,7 @@ export const Achievements = () => {
 
           {/* Achievements Grid */}
           <div className="grid md:grid-cols-2 gap-6">
-            {portfolioData.achievements.map((achievement, index) => (
+            {portfolioData.achievements.map((achievement) => (
               <motion.div
                 key={achievement.id}
                 variants={itemVariants}
