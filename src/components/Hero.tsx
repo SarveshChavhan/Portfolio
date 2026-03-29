@@ -1,5 +1,5 @@
 import { motion, type Variants } from 'framer-motion';
-import { ArrowRight, Github, Linkedin, Mail } from 'lucide-react';
+import { ArrowRight, GitBranch, Briefcase, Mail } from 'lucide-react';
 import { portfolioData } from '../data/portfolio';
 
 export const Hero = () => {
@@ -95,7 +95,7 @@ export const Hero = () => {
                 rel="noopener noreferrer"
                 className="p-3 bg-gray-200 dark:bg-gray-800 rounded-lg text-gray-800 dark:text-white hover:text-blue-500 dark:hover:text-blue-400 transition-colors"
               >
-                <Github size={24} />
+                <GitBranch size={24} />
               </motion.a>
               <motion.a
                 whileHover={{ scale: 1.2, rotate: 5 }}
@@ -104,7 +104,7 @@ export const Hero = () => {
                 rel="noopener noreferrer"
                 className="p-3 bg-gray-200 dark:bg-gray-800 rounded-lg text-gray-800 dark:text-white hover:text-blue-500 dark:hover:text-blue-400 transition-colors"
               >
-                <Linkedin size={24} />
+                <Briefcase size={24} />
               </motion.a>
               <motion.a
                 whileHover={{ scale: 1.2, rotate: 5 }}

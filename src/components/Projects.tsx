@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { ExternalLink, Github } from 'lucide-react';
+import { ExternalLink, GitBranch } from 'lucide-react';
 import { portfolioData } from '../data/portfolio';
 
 export const Projects = () => {
@@ -98,7 +98,7 @@ export const Projects = () => {
             rel="noopener noreferrer"
             className="flex items-center space-x-2 px-4 py-2 border-2 border-gray-300 dark:border-gray-600 text-gray-700 dark:text-gray-300 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors flex-1 justify-center"
           >
-            <Github size={18} />
+            <GitBranch size={18} />
             <span>Code</span>
           </motion.a>
         </div>
